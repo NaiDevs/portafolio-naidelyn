@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{title}}</title>
+  <!-- <link rel="stylesheet" href="./css/style.css" /> -->
+  <link rel="stylesheet" href="/less/style.less" />
+</head>
+
+<body>
+  {{> header}}
+  <main>
+    <h1>Contacto  </h1>
+    <p>No Esperes Más Mandame un Mensaje</p>
+      <section id="contacto">
+        <div class="form">
+            <form action="">
+                <div class="input-box">
+                    <div class="campo">
+                        <p class="label">Nombre*</p>
+                        <input type="text" placeholder="Nombre">
+                    </div>
+                    <div class="campo">
+                        <p class="label">Correo*</p>
+                        <input type="email" placeholder="Correo Electrónico">
+                    </div>
+                </div>
+                <div class="input-box">
+                    <div class="campo">
+                        <p class="label">Teléfono*</p>
+                        <input type="text" placeholder="Teléfono">
+                    </div>
+                    <div class="campo">
+                        <p class="label">Asunto*</p>
+                        <input type="text" placeholder="Asunto">
+                    </div>
+                </div>
+                <div class="input-box">
+                    <div class="campo">
+                        <p class="label">Mensaje</p>
+                        <textarea cols="100" rows="4" placeholder="Mensaje"></textarea>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+  </main>
+  {{> footer}}
+</body>
+
+</html>
